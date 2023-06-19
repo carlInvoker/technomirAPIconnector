@@ -50,8 +50,8 @@ class API_connector {
 
   }
     // HOW TO USE:::
-    $connect = new API_connector();
-    $connect->GetPrice('your api key variable', 'your item code', 'your brand id - default 0');
+    // $connect = new API_connector();
+    // $connect->GetPrice('your api key variable', 'your item code', 'your brand id - default 0');
 
     //   $newArray[$i]["MinOrderQuantity"] =
    // $newArray["DamagedFlag"] =
