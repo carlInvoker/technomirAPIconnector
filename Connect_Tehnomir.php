@@ -381,7 +381,7 @@
 
          // HOW TO USE:::
          // $this->client = new API_connector();
-         // $this->client->GetPrice('your api key variable', 'your item code', 'your brand id - default 0');
+         // $this->client->GetPrice('your api key variable', $itemCode, 'your brand id - default 0');
 
          $this->commonFilter=$this->makeCommonFilter($filtersNames);
          #var_dump($this->commonFilter);
